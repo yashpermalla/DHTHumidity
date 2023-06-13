@@ -31,7 +31,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600); // check port number under Tools > Port and looking at Serial ports
   dht.begin();
 }
 
